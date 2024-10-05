@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>MINEPVP - Store</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            p {
+                font-size: 1.25rem;
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-gray-900 text-white">
+    <div class="min-h-screen flex flex-col">
+        <!-- Header -->
+        <header class="bg-black bg-opacity-80 py-4 px-6">
+            <nav class="flex justify-between items-center max-w-6xl mx-auto">
+                <a href="/" class="text-3xl font-extrabold text-red-600 tracking-wide">MINEPVP</a>
+                <ul class="flex space-x-6 text-lg font-medium">
+                    <li><a href="/" class="hover:text-red-500 transition duration-300 ease-in-out">VOTING</a></li>
+                    <li><a href="store.html" class="hover:text-red-500 transition duration-300 ease-in-out">STORE</a></li>
+                    <li><a href="about.html" class="hover:text-red-500 transition duration-300 ease-in-out">ABOUT</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="relative bg-gray-800 text-center py-16">
+            <h1 class="text-5xl font-extrabold mb-4">MINEPVP Store</h1>
+            <p class="text-xl text-gray-300">Get exclusive ranks, perks, and items!</p>
+            <div class="absolute inset-0 z-0">
+                <img src="bg.gif" alt="Minecraft Store" class="w-full h-full object-cover opacity-20">
+            </div>
+        </section>
+
+        <!-- Store Items Section -->
+        <main class="flex-grow">
+            <div class="max-w-6xl mx-auto py-12 px-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Store Item Card -->
+                    <div class="bg-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                        <img src="rank1.jpg" alt="Rank 1" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h2 class="text-2xl font-bold mb-2">VIP Rank</h2>
+                            <p class="text-gray-300 mb-4">Unlock exclusive abilities and perks in-game.</p>
+                            <button class="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-lg transition-colors">Buy Now - $9.99</button>
+                        </div>
+                    </div>
+
+                    <!-- Store Item Card -->
+                    <div class="bg-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                        <img src="rank2.jpg" alt="Rank 2" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h2 class="text-2xl font-bold mb-2">MVP Rank</h2>
+                            <p class="text-gray-300 mb-4">Gain extra powers and rare in-game items.</p>
+                            <button class="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-lg transition-colors">Buy Now - $19.99</button>
+                        </div>
+                    </div>
+
+                    <!-- Store Item Card -->
+                    <div class="bg-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                        <img src="rank3.jpg" alt="Rank 3" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h2 class="text-2xl font-bold mb-2">Legend Rank</h2>
+                            <p class="text-gray-300 mb-4">Access exclusive areas and features in-game.</p>
+                            <button class="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-lg transition-colors">Buy Now - $29.99</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg-black bg-opacity-80 py-8">
+            <div class="max-w-6xl mx-auto text-center">
+                <p class="text-gray-500 text-sm">© 2024 MINEPVP - All rights reserved.</p>
+                <div class="flex justify-center space-x-6 mt-4">
+                    <a href="#" class="hover:text-red-500 transition duration-300">Privacy Policy</a>
+                    <a href="#" class="hover:text-red-500 transition duration-300">Terms of Service</a>
+                    <a href="#" class="hover:text-red-500 transition duration-300">Contact Us</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
